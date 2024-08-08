@@ -7,7 +7,7 @@ package proofwidgets {
 
 lean_lib ProofWidgets {}
 
-require std from git "https://github.com/leanprover/std4" @ "main"
+require std from git "https://github.com/ChaosLeizure/batteries" @ "96b85b928b6a81e3f92f4e5f9f4487db9fc56dbc"
 
 def npmCmd : String :=
   if Platform.isWindows then "npm.cmd" else "npm"
